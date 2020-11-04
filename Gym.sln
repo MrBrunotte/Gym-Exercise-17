@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gym.Web", "Gym.Web\Gym.Web.csproj", "{C945A294-4809-4227-B132-671B000D4EBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booking.Core", "Booking.Core\Booking.Core.csproj", "{6BFEE47D-FC75-4CF7-AE4A-0E07940195EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gym.Data", "Gym.Data\Gym.Data.csproj", "{29438EFB-6E0E-49BE-BFF5-C9A996206D93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C945A294-4809-4227-B132-671B000D4EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C945A294-4809-4227-B132-671B000D4EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C945A294-4809-4227-B132-671B000D4EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C945A294-4809-4227-B132-671B000D4EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFEE47D-FC75-4CF7-AE4A-0E07940195EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFEE47D-FC75-4CF7-AE4A-0E07940195EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFEE47D-FC75-4CF7-AE4A-0E07940195EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFEE47D-FC75-4CF7-AE4A-0E07940195EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29438EFB-6E0E-49BE-BFF5-C9A996206D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29438EFB-6E0E-49BE-BFF5-C9A996206D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29438EFB-6E0E-49BE-BFF5-C9A996206D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29438EFB-6E0E-49BE-BFF5-C9A996206D93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {467DB894-3BAD-448A-B600-A3A04401D1E9}
+	EndGlobalSection
+EndGlobal
