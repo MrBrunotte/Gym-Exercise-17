@@ -9,10 +9,10 @@ namespace Booking.Core.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public DateTime StartTime { get; set; }
+        public DateTime StartDate { get; set; }
         public TimeSpan Duration { get; set; }
         // har endast en get metod!
-        public DateTime EndTime => StartTime + Duration;
+        public DateTime EndTime => StartDate + Duration;
         public string Description { get; set; }
 
         // punkt 7 i uppgiften
