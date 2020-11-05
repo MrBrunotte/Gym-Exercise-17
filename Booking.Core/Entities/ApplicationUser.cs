@@ -15,6 +15,7 @@ namespace Booking.Core.Entities
 
         // punkt 8 i uppgiften
         // Navigation property many to many så vi behöver en collection
+        // får ej vara virtual!
         public ICollection<ApplicationUserGymClass> AttendedClasses { get; set; }
     }
 }
